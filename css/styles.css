@@ -292,6 +292,8 @@ body {
 .section-portfolio-pic__item {
   margin-right: 30px;
   margin-bottom: 30px;
+  /* background: #ffffff;
+  border: 1px solid #eeeeee; */
 }
 .section-portfolio-pic__item:nth-child(3n) {
   margin-right: 0px;
