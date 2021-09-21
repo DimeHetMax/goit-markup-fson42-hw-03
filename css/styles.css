@@ -29,6 +29,9 @@ body {
   font-family: Roboto, sans-serif;
   color: #212121;
 }
+img {
+  display: block;
+}
 .list {
   list-style: none;
 }
@@ -46,7 +49,18 @@ body {
   font-style: normal;
   font-weight: bold;
 }
-
+.title-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .container {
   width: 1200px;
   margin-left: auto;
@@ -124,7 +138,7 @@ body {
 .section-hero {
   background: var(--background-color);
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   text-align: center;
 }
 .main-title {
@@ -292,8 +306,9 @@ body {
 .section-portfolio-pic__item {
   margin-right: 30px;
   margin-bottom: 30px;
-  /* background: #ffffff;
-  border: 1px solid #eeeeee; */
+  width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 .section-portfolio-pic__item:nth-child(3n) {
   margin-right: 0px;
