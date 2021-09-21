@@ -198,6 +198,10 @@ img {
 .section-lead__list {
   display: flex;
 }
+.section-lead__item {
+  width: 270px;
+  height: auto;
+}
 .section-lead__item:not(:last-child) {
   margin-right: 30px;
 }
