@@ -309,7 +309,6 @@ img {
   margin-bottom: 30px;
   width: 370px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 .section-portfolio-pic__item:nth-child(3n) {
   margin-right: 0px;
@@ -319,6 +318,9 @@ img {
 }
 .section-portfolio-text-wrapper {
   padding: 19px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .section-portfolio__title {
   margin-bottom: 4px;
