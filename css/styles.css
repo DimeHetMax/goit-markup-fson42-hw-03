@@ -17,14 +17,12 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-
 ul,
 ol {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
-
 body {
   font-family: Roboto, sans-serif;
   color: #212121;
@@ -35,7 +33,6 @@ img {
 .list {
   list-style: none;
 }
-
 .link {
   text-decoration: none;
   display: block;
@@ -137,7 +134,6 @@ img {
 .site-contact__link:hover {
   color: var(--accent-color);
 }
-
 /* hero */
 .section-hero {
   background: var(--background-color);
@@ -266,7 +262,6 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
 }
-
 /* portfolio cards */
 .section-portfolio {
   padding: 94px 0px;
