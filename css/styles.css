@@ -45,6 +45,7 @@ img {
 .title {
   font-style: normal;
   font-weight: bold;
+  margin-bottom: 50px;
 }
 .title-hidden {
   position: absolute;
@@ -212,7 +213,6 @@ img {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-bottom: 50px;
 }
 .section-about__list {
   display: flex;
@@ -230,7 +230,6 @@ img {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-bottom: 50px;
 }
 .section-team-card__list {
   display: flex;
@@ -300,6 +299,7 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 .section-portfolio-pic__list {
   display: flex;
@@ -323,9 +323,7 @@ img {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
-.section-portfolio__title {
-  margin-bottom: 4px;
-}
+
 .section-portfolio__text {
   font-size: 16px;
   line-height: 1.87;
